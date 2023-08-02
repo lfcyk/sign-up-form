@@ -80,3 +80,7 @@ form {
     height:40px;
     background-color: #fbbb34;
 }
+
+#create-account-button:hover {
+    background-color: #55bbdf;
+}
