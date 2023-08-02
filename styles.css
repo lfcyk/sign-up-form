@@ -1,3 +1,8 @@
+@font-face {
+    font-family: Norse-Bold;
+    src: url(../fonts/Norse-Bold.otf);
+}
+
 body {
     
     margin: 0;
@@ -14,6 +19,7 @@ body {
 
     background-color:antiquewhite;
 }
+
 #sign-up-card {
     display: flex;
     box-shadow: 5px 5px 15px 5px #838080;
@@ -25,6 +31,11 @@ body {
 #ramona-img {
     margin: 0;
     border-radius: 25px 0px 0px 25px;
+}
+
+#odin-title {
+    font-family: Norse-Bold, sans-serif;
+    font-size: 90px;
 }
 
 #sign-up-tab {
@@ -72,7 +83,10 @@ form {
 .label-w-input {
     display: flex;
     flex-direction: column;
-    gap: 5px;
+}
+
+.label-w-input > label {
+    font-size: smaller;
 }
 
 #create-account-button {
@@ -84,3 +98,25 @@ form {
 #create-account-button:hover {
     background-color: #55bbdf;
 }
+
+input:focus {
+    box-shadow: 1px 1px 1px grey;
+    border: 3px solid blue;
+}   
+
+input {
+    width: 100%;
+    box-sizing: border-box;
+    border: 3px solid #ccc;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    outline: none;
+}
+
+input:invalid {
+    border: 3px solid red;
+}  
+
+input:valid {
+    border: 3px solid green;
+}  
