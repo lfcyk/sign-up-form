@@ -1,0 +1,82 @@
+body {
+    
+    margin: 0;
+    /* background-color:antiquewhite; */
+}
+
+#screen {
+    width: 100vw;
+    height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color:antiquewhite;
+}
+#sign-up-card {
+    display: flex;
+    box-shadow: 5px 5px 15px 5px #838080;
+    width: 900px;
+    border-radius: 25px;
+    padding: 0px;
+}
+
+#ramona-img {
+    margin: 0;
+    border-radius: 25px 0px 0px 25px;
+}
+
+#sign-up-tab {
+    background-color: white;
+    border-radius: 0px 25px 25px 0px;
+    padding: 0px 20px 20px 20px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#greeting {
+    font-size: larger;
+}
+
+#web-logo {
+    position: absolute;
+    top: 150px;
+    width: 350px;
+    height: 110px;
+    background-color: rgba(20, 15, 15, 0.719);
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+#logo {
+    width: 60px;
+}
+
+#odin-title {
+    color: white;
+}
+
+form {
+    
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.label-w-input {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+#create-account-button {
+    width:160px;
+    height:40px;
+    background-color: #fbbb34;
+}
